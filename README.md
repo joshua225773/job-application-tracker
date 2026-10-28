@@ -91,7 +91,7 @@ PORT=5000
 NODE_ENV=development
 
 # MongoDB Atlas Connection String
-MONGODB_URI=mongodb+srv://exam_student:ExamSecurePass2026@cluster0.mernexam.mongodb.net/job_tracker_db?retryWrites=true&w=majority
+MONGODB_URI=mongodb+srv://Joshua_Antony:test6829@cluster0.fsadkgk.mongodb.net/job_application_tracker?retryWrites=true&w=majority
 
 # Client Application URL
 CLIENT_URL=http://localhost:5173
