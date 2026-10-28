@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 680" width="800" height="680" style="background:#0f172a80; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+  <defs>
+    <filter id="modalShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Modal Container -->
+  <g transform="translate(100, 40)">
+    <rect width="600" height="600" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#modalShadow)"/>
+
+    <!-- Modal Header -->
+    <rect width="600" height="90" rx="16" fill="#f8fafc"/>
+    <rect x="0" y="80" width="600" height="10" fill="#f8fafc"/>
+    <line x1="0" y1="90" x2="600" y2="90" stroke="#f1f5f9" stroke-width="1"/>
+
+    <!-- App ID & Current Status -->
+    <rect x="28" y="20" width="94" height="22" rx="4" fill="#e2e8f0"/>
+    <text x="36" y="35" font-size="11" font-family="monospace" font-weight="700" fill="#334155">JA-GOO-001</text>
+
+    <rect x="130" y="20" width="60" height="22" rx="11" fill="#fffbeb" stroke="#fde68a" stroke-width="1"/>
+    <text x="144" y="35" font-size="11" font-weight="700" fill="#b45309">Offer</text>
+
+    <!-- Role & Company -->
+    <text x="28" y="66" font-size="18" font-weight="800" fill="#0f172a">Software Engineer II</text>
+    <text x="235" y="66" font-size="14" font-weight="600" fill="#64748b">• Google • Full-time</text>
+
+    <!-- Close button -->
+    <circle cx="566" cy="35" r="14" fill="#f1f5f9"/>
+    <text x="561" y="40" font-size="14" font-weight="600" fill="#64748b">✕</text>
+
+    <!-- Key Info Cards Row -->
+    <rect x="28" y="110" width="260" height="60" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="44" y="132" font-size="11" font-weight="600" fill="#64748b">APPLICATION SUBMITTED</text>
+    <text x="44" y="153" font-size="13" font-weight="700" fill="#0f172a">Oct 10, 2026</text>
+
+    <rect x="312" y="110" width="260" height="60" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="328" y="132" font-size="11" font-weight="600" fill="#64748b">FOLLOW-UP TARGET (+7 DAYS)</text>
+    <text x="328" y="153" font-size="13" font-weight="700" fill="#0284c7">Oct 17, 2026 (Completed)</text>
+
+    <!-- Timeline Title -->
+    <text x="28" y="205" font-size="12" font-weight="800" fill="#64748b" letter-spacing="1">APPLICATION PROGRESSION HISTORY</text>
+
+    <!-- Vertical Timeline Line -->
+    <line x1="56" y1="230" x2="56" y2="480" stroke="#cbd5e1" stroke-width="2"/>
+
+    <!-- Timeline Entry 1 (Applied) -->
+    <g transform="translate(48, 230)">
+      <circle cx="8" cy="8" r="8" fill="#3b82f6" stroke="#ffffff" stroke-width="2"/>
+      <rect x="36" y="-6" width="488" height="68" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+      <rect x="48" y="8" width="60" height="20" rx="10" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+      <text x="60" y="22" font-size="11" font-weight="700" fill="#1d4ed8">Applied</text>
+      <text x="360" y="22" font-size="11" fill="#94a3b8">Oct 10, 2026, 10:15 AM</text>
+      <text x="48" y="50" font-size="12" fill="#475569">Initial job application submitted through career website.</text>
+    </g>
+
+    <!-- Timeline Entry 2 (Interview) -->
+    <g transform="translate(48, 320)">
+      <circle cx="8" cy="8" r="8" fill="#8b5cf6" stroke="#ffffff" stroke-width="2"/>
+      <rect x="36" y="-6" width="488" height="68" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+      <rect x="48" y="8" width="70" height="20" rx="10" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1"/>
+      <text x="59" y="22" font-size="11" font-weight="700" fill="#7c3aed">Interview</text>
+      <text x="360" y="22" font-size="11" fill="#94a3b8">Oct 18, 2026, 02:30 PM</text>
+      <text x="48" y="50" font-size="12" fill="#475569">Recruiter screening passed. Scheduled technical coding round.</text>
+    </g>
+
+    <!-- Timeline Entry 3 (Offer) -->
+    <g transform="translate(48, 410)">
+      <circle cx="8" cy="8" r="10" fill="#f59e0b" stroke="#ffffff" stroke-width="3"/>
+      <rect x="36" y="-6" width="488" height="68" rx="10" fill="#fffbeb" stroke="#fde68a" stroke-width="1.5"/>
+      <rect x="48" y="8" width="56" height="20" rx="10" fill="#fef3c7" stroke="#fcd34d" stroke-width="1"/>
+      <text x="60" y="22" font-size="11" font-weight="700" fill="#b45309">Offer</text>
+      <text x="360" y="22" font-size="11" fill="#94a3b8">Oct 24, 2026, 04:00 PM</text>
+      <text x="48" y="50" font-size="12" font-weight="600" fill="#78350f">Received formal job offer with base salary and stock grants.</text>
+    </g>
+
+    <!-- Modal Footer -->
+    <rect x="0" y="530" width="600" height="70" rx="16" fill="#f8fafc"/>
+    <rect x="0" y="530" width="600" height="10" fill="#f8fafc"/>
+    <line x1="0" y1="530" x2="600" y2="530" stroke="#f1f5f9" stroke-width="1"/>
+    <rect x="500" y="546" width="72" height="36" rx="8" fill="#e2e8f0"/>
+    <text x="520" y="568" font-size="12" font-weight="600" fill="#334155">Close</text>
+  </g>
+</svg>

@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" width="1200" height="780" style="background:#f8fafc; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- Navigation Bar -->
+  <rect width="1200" height="70" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="40" y="15" width="40" height="40" rx="10" fill="#0284c7"/>
+  <path d="M52 27 h16 v16 h-16 z" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <path d="M57 27 v-3 h6 v3" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <text x="92" y="38" font-size="18" font-weight="700" fill="#0f172a">TrackApply</text>
+  <rect x="195" y="24" width="72" height="20" rx="4" fill="#e0f2fe" stroke="#bae6fd" stroke-width="1"/>
+  <text x="202" y="38" font-size="10" font-weight="700" fill="#0369a1">MERN PRO</text>
+
+  <rect x="1030" y="17" width="130" height="36" rx="8" fill="#0284c7"/>
+  <text x="1055" y="40" font-size="13" font-weight="600" fill="#ffffff">+ Add Application</text>
+
+  <!-- Overdue Banner -->
+  <rect x="40" y="90" width="1120" height="48" rx="10" fill="#fff1f2" stroke="#fecdd3" stroke-width="1"/>
+  <circle cx="64" cy="114" r="10" fill="#ffe4e6"/>
+  <text x="60" y="118" font-size="12" font-weight="800" fill="#e11d48">!</text>
+  <text x="85" y="119" font-size="13" font-weight="700" fill="#9f1239">1 Application Requires Immediate Follow-up</text>
+  <text x="375" y="119" font-size="12" fill="#e11d48">More than 7 days have elapsed since initial submission with no progress.</text>
+
+  <!-- Metrics Grid -->
+  <g transform="translate(40, 150)">
+    <!-- Total -->
+    <rect x="0" y="0" width="150" height="76" rx="10" fill="#ffffff" stroke="#0284c7" stroke-width="2" filter="url(#shadow)"/>
+    <text x="14" y="26" font-size="11" font-weight="600" fill="#64748b">TOTAL TRACKED</text>
+    <text x="14" y="58" font-size="24" font-weight="800" fill="#0f172a">6</text>
+
+    <!-- Applied -->
+    <rect x="162" y="0" width="150" height="76" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow)"/>
+    <text x="176" y="26" font-size="11" font-weight="600" fill="#64748b">APPLIED</text>
+    <text x="176" y="58" font-size="24" font-weight="800" fill="#2563eb">2</text>
+
+    <!-- Interview -->
+    <rect x="324" y="0" width="150" height="76" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow)"/>
+    <text x="338" y="26" font-size="11" font-weight="600" fill="#64748b">INTERVIEW</text>
+    <text x="338" y="58" font-size="24" font-weight="800" fill="#7c3aed">1</text>
+
+    <!-- Offer -->
+    <rect x="486" y="0" width="150" height="76" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow)"/>
+    <text x="500" y="26" font-size="11" font-weight="600" fill="#64748b">OFFER</text>
+    <text x="500" y="58" font-size="24" font-weight="800" fill="#d97706">1</text>
+
+    <!-- Accepted -->
+    <rect x="648" y="0" width="150" height="76" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow)"/>
+    <text x="662" y="26" font-size="11" font-weight="600" fill="#64748b">ACCEPTED</text>
+    <text x="662" y="58" font-size="24" font-weight="800" fill="#059669">1</text>
+
+    <!-- Declined -->
+    <rect x="810" y="0" width="150" height="76" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow)"/>
+    <text x="824" y="26" font-size="11" font-weight="600" fill="#64748b">DECLINED</text>
+    <text x="824" y="58" font-size="24" font-weight="800" fill="#475569">0</text>
+
+    <!-- Rejected -->
+    <rect x="972" y="0" width="148" height="76" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow)"/>
+    <text x="986" y="26" font-size="11" font-weight="600" fill="#64748b">REJECTED</text>
+    <text x="986" y="58" font-size="24" font-weight="800" fill="#e11d48">1</text>
+  </g>
+
+  <!-- Filter Bar -->
+  <rect x="40" y="246" width="1120" height="56" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="56" y="258" width="400" height="32" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="88" y="279" font-size="12" fill="#94a3b8">Search by company name (e.g. Google, Infosys)...</text>
+  
+  <rect x="920" y="258" width="140" height="32" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="936" y="279" font-size="12" font-weight="600" fill="#334155">All Statuses ▼</text>
+
+  <!-- Cards Grid -->
+  <!-- Card 1 (Overdue Applied) -->
+  <g transform="translate(40, 320)">
+    <rect width="360" height="230" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow)"/>
+    <rect x="18" y="16" width="90" height="22" rx="4" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="26" y="31" font-size="11" font-family="monospace" font-weight="700" fill="#334155">JA-INF-001</text>
+    <rect x="120" y="16" width="65" height="22" rx="11" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+    <text x="132" y="31" font-size="11" font-weight="600" fill="#1d4ed8">Applied</text>
+    <rect x="195" y="16" width="145" height="22" rx="11" fill="#f43f5e"/>
+    <text x="207" y="31" font-size="10" font-weight="700" fill="#ffffff">⚠ Follow-up Overdue</text>
+
+    <text x="18" y="68" font-size="16" font-weight="700" fill="#0f172a">Senior MERN Developer</text>
+    <text x="18" y="88" font-size="13" font-weight="500" fill="#64748b">Infosys Technologies</text>
+
+    <rect x="18" y="104" width="64" height="20" rx="4" fill="#f1f5f9"/>
+    <text x="26" y="118" font-size="11" font-weight="500" fill="#475569">Full-time</text>
+    <text x="94" y="118" font-size="11" fill="#64748b">Applied: Oct 12, 2026</text>
+    <text x="235" y="118" font-size="11" font-weight="600" fill="#0f172a">$115,000</text>
+
+    <rect x="18" y="136" width="324" height="34" rx="6" fill="#f8fafc"/>
+    <text x="26" y="156" font-size="11" fill="#64748b">Applied via internal portal. Completed assessment.</text>
+
+    <!-- Card action row -->
+    <line x1="0" y1="184" x2="360" y2="184" stroke="#f1f5f9" stroke-width="1"/>
+    <text x="18" y="206" font-size="12" font-weight="600" fill="#0284c7">⏱ Timeline</text>
+    <text x="220" y="206" font-size="12" font-weight="600" fill="#0284c7">Advance</text>
+    <text x="280" y="206" font-size="12" font-weight="600" fill="#475569">Edit</text>
+    <text x="320" y="206" font-size="12" font-weight="600" fill="#e11d48">Del</text>
+  </g>
+
+  <!-- Card 2 (Interviewing) -->
+  <g transform="translate(420, 320)">
+    <rect width="360" height="230" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow)"/>
+    <rect x="18" y="16" width="94" height="22" rx="4" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="26" y="31" font-size="11" font-family="monospace" font-weight="700" fill="#334155">JA-GOO-001</text>
+    <rect x="122" y="16" width="76" height="22" rx="11" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1"/>
+    <text x="134" y="31" font-size="11" font-weight="600" fill="#7c3aed">Interview</text>
+
+    <text x="18" y="68" font-size="16" font-weight="700" fill="#0f172a">Software Engineer II</text>
+    <text x="18" y="88" font-size="13" font-weight="500" fill="#64748b">Google</text>
+
+    <rect x="18" y="104" width="64" height="20" rx="4" fill="#f1f5f9"/>
+    <text x="26" y="118" font-size="11" font-weight="500" fill="#475569">Full-time</text>
+    <text x="94" y="118" font-size="11" fill="#64748b">Applied: Oct 20, 2026</text>
+    <text x="235" y="118" font-size="11" font-weight="600" fill="#0f172a">$140,000</text>
+
+    <rect x="18" y="136" width="324" height="34" rx="6" fill="#f8fafc"/>
+    <text x="26" y="156" font-size="11" fill="#64748b">Technical round scheduled for next Tuesday.</text>
+
+    <line x1="0" y1="184" x2="360" y2="184" stroke="#f1f5f9" stroke-width="1"/>
+    <text x="18" y="206" font-size="12" font-weight="600" fill="#0284c7">⏱ Timeline</text>
+    <text x="220" y="206" font-size="12" font-weight="600" fill="#0284c7">Advance</text>
+    <text x="280" y="206" font-size="12" font-weight="600" fill="#475569">Edit</text>
+    <text x="320" y="206" font-size="12" font-weight="600" fill="#94a3b8">🔒 Locked</text>
+  </g>
+
+  <!-- Card 3 (Offer) -->
+  <g transform="translate(800, 320)">
+    <rect width="360" height="230" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#shadow)"/>
+    <rect x="18" y="16" width="94" height="22" rx="4" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="26" y="31" font-size="11" font-family="monospace" font-weight="700" fill="#334155">JA-MSF-001</text>
+    <rect x="122" y="16" width="56" height="22" rx="11" fill="#fffbeb" stroke="#fde68a" stroke-width="1"/>
+    <text x="134" y="31" font-size="11" font-weight="600" fill="#b45309">Offer</text>
+
+    <text x="18" y="68" font-size="16" font-weight="700" fill="#0f172a">Cloud Solutions Architect</text>
+    <text x="18" y="88" font-size="13" font-weight="500" fill="#64748b">Microsoft</text>
+
+    <rect x="18" y="104" width="70" height="20" rx="4" fill="#f1f5f9"/>
+    <text x="26" y="118" font-size="11" font-weight="500" fill="#475569">Contract</text>
+    <text x="100" y="118" font-size="11" fill="#64748b">Applied: Oct 15, 2026</text>
+    <text x="235" y="118" font-size="11" font-weight="600" fill="#0f172a">$160,000</text>
+
+    <rect x="18" y="136" width="324" height="34" rx="6" fill="#f8fafc"/>
+    <text x="26" y="156" font-size="11" fill="#64748b">Received official offer letter. Reviewing contract.</text>
+
+    <line x1="0" y1="184" x2="360" y2="184" stroke="#f1f5f9" stroke-width="1"/>
+    <text x="18" y="206" font-size="12" font-weight="600" fill="#0284c7">⏱ Timeline</text>
+    <text x="220" y="206" font-size="12" font-weight="600" fill="#0284c7">Advance</text>
+    <text x="280" y="206" font-size="12" font-weight="600" fill="#475569">Edit</text>
+    <text x="320" y="206" font-size="12" font-weight="600" fill="#94a3b8">🔒 Locked</text>
+  </g>
+</svg>
