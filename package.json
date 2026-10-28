@@ -1,0 +1,21 @@
+{
+  "name": "job-application-tracker",
+  "version": "1.0.0",
+  "description": "Full-Stack Job Application Tracker built on the MERN stack with strict status workflow state machines, duplicate prevention, and timeline auditing.",
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "start": "cd backend && npm start",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "mern",
+    "mongodb",
+    "express",
+    "react",
+    "node",
+    "job-application-tracker"
+  ],
+  "author": "Candidate",
+  "license": "ISC"
+}
